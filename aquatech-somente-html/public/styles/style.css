@@ -101,7 +101,13 @@ a:hover {
 }
 
 .box > p{
-    margin: 10px;
+    margin: 5px;
+}
+
+.box > h4{
+    margin: 8px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* FOOTER */
