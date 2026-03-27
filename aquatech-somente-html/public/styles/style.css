@@ -1,0 +1,113 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+/* Cores:
+#0762c8 - Azul
+#fcba05 - Amarelo
+#ff0960 - Cereja
+*/
+
+*{
+    margin: 0;
+    padding: 0;;
+    font-family: monospace, sans-serif;
+}
+
+/* HEADER */
+
+.header, .footer{
+    width: 100%;
+    height: 20vh;
+
+    background-color: #002249;
+    color: #fcba05;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 10px #ff0960;
+}
+
+.header > .container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fcba05;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* BANNER */
+
+.banner{
+    height: 80vh;
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner > .container{
+    width: 10vw;
+}
+
+.destaque{
+    font-weight: bold;
+}
+
+/* CONTENT */
+.content{
+    height: 350px;
+    background-color: #fcba05;
+}
+
+.content > .container{
+    width: 100vw;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 30vw;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.box > img{
+    width: 10vw;
+}
+
+.box > p{
+    margin: 10px;
+}
+
+/* FOOTER */
+
+.footer{
+    border-top: solid 10px #ff0960;
+    border-bottom: none;
+    justify-content: center;
+}
