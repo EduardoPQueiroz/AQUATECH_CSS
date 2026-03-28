@@ -50,11 +50,18 @@ body{
 a{
     text-decoration: none;
     color: #fcba05;
+    transition: border-bottom 3s;
 }
 
 a:hover {
-    text-decoration: underline;
+    border-bottom: solid 1px #ff0960;
+    
 }
+
+a:active{
+    font-weight: bold;
+}
+
 
 
 /* BANNER */
@@ -135,7 +142,7 @@ a:hover {
     background-color: #d3d3d3;
     border-radius: 10px;
     width: 50vw;
-    height: 40vh;
+    height: 60vh;
     color: #ff0960;
 }
 
